@@ -26,6 +26,8 @@
     <ClCompile Include="typing_game4.cpp" />
     <ClCompile Include="typing_game5.cpp" />
     <ClCompile Include="typing_game6.cpp" />
+    <ClCompile Include="typing_game7.cpp" />
+    <ClCompile Include="typing_game8.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>

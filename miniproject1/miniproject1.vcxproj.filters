@@ -36,5 +36,11 @@
     <ClCompile Include="test1.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="typing_game7.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="typing_game8.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

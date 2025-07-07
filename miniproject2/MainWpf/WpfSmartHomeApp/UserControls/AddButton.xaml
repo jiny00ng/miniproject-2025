@@ -1,0 +1,23 @@
+﻿<UserControl x:Class="WpfSmartHomeApp.UserControls.AddButton"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             x:Name="root"
+             Width="150" Height="50">
+
+    <Border CornerRadius="8"
+            Background="#3253F1"
+            VerticalAlignment="Center"
+            HorizontalAlignment="Center"
+            Cursor="Hand">
+        <Button Background="Transparent"
+                Foreground="White"
+                BorderThickness="0"
+                Click="Button_Click">
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center" Spacing="8">
+                <TextBlock Text="+" FontSize="18" FontWeight="Bold" VerticalAlignment="Center" />
+                <TextBlock Text="{Binding Title, ElementName=root}"
+                           VerticalAlignment="Center" FontSize="14" FontWeight="SemiBold" />
+            </StackPanel>
+        </Button>
+    </Border>
+</UserControl>
